@@ -52,7 +52,17 @@ p, li{
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
+    transition: 2s;
+    border: none;
+
+    
 }
+
+.defatul-card:hover{
+    border: solid #00FF00 1px;
+    transition: 2s ease;
+}
+
 
 .card1{
     text-align: center;
@@ -60,6 +70,32 @@ p, li{
 }
 .card2{
     text-align: left;
+}
+
+.social_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social_item img{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+.social_item text{
+   text-align: center;
+   margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: #837E9F;
+    transition: 1s;
+}
+
+.link:hover{
+    color: #00FF00;
+    transition: 1s;
 }
 
 .card3 h2{
@@ -97,9 +133,8 @@ p, li{
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-     
-}
+    
+}   
 
 #my-projects{
     margin: 0;
@@ -120,7 +155,6 @@ p, li{
     flex-direction: row;
     margin-top: 20px;
     max-height: 186px;
-
 }
 
 .respos-card{

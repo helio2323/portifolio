@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="./main.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <title>Portifolio</title>
 </head>
@@ -16,14 +21,14 @@
         <div id="menu-itens" class="back-black">
 
             <article class="defatul-card card1">
-                <img id="img" src="https://avatars.githubusercontent.com/u/90978646?v=4" alt="">
+                <img id="img" src="" alt="">
 
-                <h2 class="default-text">Helio Fernandes</h2>
+                <h2 id="userName" class="default-text">Helio Fernandes</h2>
                 <p class="default-text">Full Stack Developer</p>
             </article>
 
             <article class="defatul-card card2">
-                <ul>
+                <ul id="socials">
                     <li class="default-text" ><img src="./assets/map-pin.svg" alt="" /> Brasil</li>
                     <li class="default-text"><img src="./assets/briefcase.svg" />Modern</li>
                     <li class="default-text"><img src="./assets/github.svg" alt="" />helio2323</li>
@@ -44,7 +49,16 @@
 
             <article class="defatul-card card4">
                 <h2 class="default-text">Experiencia</h2>
-            </article>            
+
+                <ul>
+                    <li>Modern</li>
+                    <li>Actual</li>
+                    <li>Project Analisty</li>
+                </ul>
+
+            </article>    
+            
+
 
         </div>
 
@@ -54,6 +68,60 @@
                 <h3>My Projects</h3>
                 <p>Veja Todos</p>
             </div>
+
+            <div id="repos">
+                <article class="defatul-card respos-card">
+                    <div class="content-card">
+                        <div class="folder">
+                        <img src="./assets/folder.svg" alt="">    
+                        <p class="repos-name">My respository</p>
+                        </div>
+                        <p class="respos-content">My Consulte os códigos de erro que aparecem no painel do veículo Onix.</p>
+                        <div class="infos">
+                            <div class="folder">
+                                <img src="./assets/star.svg" alt="">    
+                                <p class="repos-name">100</p>
+                            </div>
+                            <div class="folder">
+                                <img src="./assets/git-branch.svg" alt="">    
+                                <p class="repos-name">100</p>
+                            </div>
+                            <div class="folder">
+                                <img src="./assets/map-pin.svg" alt="">    
+                                <p class="repos-name">Java Script</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="defatul-card respos-card">
+                    <div class="content-card">
+                        <div class="folder">
+                        <img src="./assets/folder.svg" alt="">    
+                        <p class="repos-name">My respository</p>
+                        </div>
+                        <p class="respos-content">My Consulte os códigos de erro que aparecem no painel do veículo Onix.</p>
+                        <div class="infos">
+                            <div class="folder">
+                                <img src="./assets/star.svg" alt="">    
+                                <p class="repos-name">100</p>
+                            </div>
+                            <div class="folder">
+                                <img src="./assets/git-branch.svg" alt="">    
+                                <p class="repos-name">100</p>
+                            </div>
+                            <div class="folder">
+                                <img src="./assets/map-pin.svg" alt="">    
+                                <p class="repos-name">Java Script</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div id="my-projects" class="defatul-card">
+                <h3>Recent Posts</h3>
+            </div>            
+            
 
         </div>
     </div>

@@ -1,20 +1,18 @@
 <template>
     <div class="timeline">
       <div class="timeline-header">
-        <img src="" alt="Company Logo" class="logo" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpkFQZxoOVgT1yTm3bH2UMdvmSmnSAomWvQ&s" alt="Company Logo" class="logo" />
         <h2>2019 to 2021</h2>
       </div>
       <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
+          <img width="15" height="15" src="https://img.icons8.com/material-outlined/20/5C7CFA/filled-circle--v1.png" alt="filled-circle--v1"/>        <div class="timeline-content">
           <h3>Full Project Analyst</h3>
           <p>Modern Logistics</p>
           <p>Apr 2020 - Mar 2021 - 1 year</p>
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
+        <img width="15" height="15" src="https://img.icons8.com/material-outlined/20/5C7CFA/filled-circle--v1.png" alt="filled-circle--v1"/>        <div class="timeline-content">
           <h3>Analista de Projetos Junior</h3>
           <p>Modern Logistics</p>
           <p>Apr 2019 - Mar 2020 - 1 year</p>
@@ -30,18 +28,22 @@
   .timeline {
     font-family: Arial, sans-serif;
     color: #565656;
+    margin-top: 30px;
+    max-width: fit-content;
   }
   
   .timeline-header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
+    align-items: center;
   }
   
   .logo {
     width: 50px;
     height: 50px;
+    border-radius: 10%;
   }
   
   h2 {

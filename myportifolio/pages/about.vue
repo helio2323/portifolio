@@ -5,7 +5,11 @@
         ptext="Welcome to my creative hub where innovation meets expression. Through a blend of imagination and craftsmanship, I strive to bring ideas to life. Each project is a testament to my commitment to pushing boundaries, sharing insights, and evolving with every endeavor. Join me on this journey of "
         secondText="Carrer"
         />
-        <Experience />
+        <div class="experience">
+            <Experience />
+            <Experience />
+            <Experience />
+        </div>
     </div>
 </template>
 
@@ -23,6 +27,13 @@ import Experience from '../components/about/Experience.vue'
     flex-direction: column;
     width: 80%;
     height: calc(100vh - 110px);
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 

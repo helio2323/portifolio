@@ -22,6 +22,14 @@
   </template>
   
   <script setup>
+
+  const props = defineProps({
+    img: {
+        type: String,
+        default: ''
+    }
+})
+
   </script>
   
   <style scoped>

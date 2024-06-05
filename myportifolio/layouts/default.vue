@@ -20,6 +20,7 @@ import MainHeader from '../components/MainHeader.vue'
     min-height: 100%;
     width: 100%;
     align-items: center;
+    
 
 }
 

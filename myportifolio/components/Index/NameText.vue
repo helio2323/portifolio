@@ -18,9 +18,8 @@ const props = defineProps({
 <style scoped>
 
 h2 {
-    font-size: 3rem;
     font-style: normal; 
-    color: var(--Black);
+    color: var(--Text);
 }
 
 </style>

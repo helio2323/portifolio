@@ -19,6 +19,8 @@
 #__nuxt {
   padding: 0;
   background-color: var(--White);
+  width: 100vw;
+  height: 100vh;
 }
 
 * {
@@ -26,6 +28,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 
 }
 

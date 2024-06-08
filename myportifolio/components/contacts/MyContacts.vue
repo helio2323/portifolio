@@ -42,28 +42,28 @@ import Icons from '../contacts/Icons.vue'
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: normal;
-    color: #5E72E4;
+    color: var(--Primary);
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: normal;
-    color: #5E72E4;
+    color: var(--Primary);
 }
 
 p {
     font-size: 1.5rem;
     font-style: normal;
-    color: #8392AB;
+    color: var(--Secondary);
     font-size: 0.9rem;
 }
 
 h4 {
     font-size: 1rem;
     font-style: normal;
-    color: #8392AB;
+    color: var(--Secondary);
     font-style: normal;
     font-size: 1.2rem;
     font-weight: 500;

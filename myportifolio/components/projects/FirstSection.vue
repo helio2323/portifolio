@@ -40,15 +40,15 @@ const props = defineProps({
     display: flex;
     flex-direction: row;
     height:  60px;
-    border: solid 1px #5E72E4;
+    border: solid 1px var(--Primary);
     border-radius:  10px;
     align-items: center;
 }
 
 h1 {
-    color: #5E72E4;
+    color: var(--Primary);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .first-section {

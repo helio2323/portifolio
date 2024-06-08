@@ -37,11 +37,11 @@
   <style scoped>
   .project-card {
     max-width: 350px;
-    background-color: white;
+    background-color: var(--White);
     border-radius: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    border: 1px solid #5E72E4;
+    border: 1px solid var(--Primary);
     padding: 5px;
   }
   
@@ -65,14 +65,14 @@
   
   .title {
     font-size: 24px;
-    color: #6366f1;
+    color: var(--Primary);
     margin: 0 0 8px 0;
     font-weight: bold;
   }
   
   .description {
     font-size: 14px;
-    color: #4a5568;
+    color: var(--Secondary);
     margin: 30px 0 30px 0;
     line-height: 1.5;
     text-align: justify;
@@ -86,13 +86,14 @@
   
   .technologies h3 {
     font-size: 18px;
-    color: #6366f1;
+    color: var(--Primary);
     margin: 0 0 8px 0;
   }
   
   .icons {
     display: flex;
     gap: 8px;
+    padding: 0;
   }
   
   .icon {
@@ -102,8 +103,11 @@
   
   .buttons {
     display: flex;
+    flex-direction: row;
     gap: 8px;
     padding: 0;
+    align-items: start;
+    justify-content: start;
   }
   
   button {
@@ -116,21 +120,21 @@
   }
   
   .live-button {
-    background-color: #3b82f6;
-    color: white;
+    background-color: var(--Primary);
+    color: var(--White);
   }
   
   .live-button:hover {
-    background-color: #2563eb;
+    background-color: var(--Primary);
   }
   
   .code-button {
-    background-color: #374151;
-    color: white;
+    background-color: var(--Text);
+    color: var(--White);
   }
   
   .code-button:hover {
-    background-color: #1f2937;
+    background-color: var(--Text);
   }
   </style>
   

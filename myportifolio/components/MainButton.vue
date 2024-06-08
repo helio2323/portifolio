@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="button">Contact</button>
+        <button class="button">Hire Me!</button>
     </div>
 </template>
 
@@ -13,7 +13,7 @@
 .button {
     text-decoration: none;
     padding: 15px 40px;
-    background-color: var(--Purple);
+    background-color: var(--Primary);
     border: none;
     border-radius: 5px;
     color: var(--White);

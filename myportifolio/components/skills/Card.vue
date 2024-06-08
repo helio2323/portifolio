@@ -1,6 +1,6 @@
 <template>
     <div class="nuxt-card">
-        <img width="30" height="30" :src="img" alt="vuejs"/>
+        <img width="35" height="35" :src="img" alt="vuejs"/>
       <p class="nuxt-text">{{ text }}</p>
     </div>
   </template>
@@ -27,9 +27,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: 120px;
     height: 100px;
-    border: 1px solid #8392AB;
+    border: 1px solid var(--Secondary);
     border-radius: 10px;
     gap: 10px;
   }
@@ -41,7 +41,7 @@
   }
   
   .nuxt-text {
-    color: #8392AB;
+    color: var(--Secondary);
     font-family: 'Comfortaa', sans-serif;
     font-size: 0.9rem;
   }

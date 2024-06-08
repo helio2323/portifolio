@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    border: 1px solid #8392AB;
+    border: 1px solid var(--Secondary);
     border-radius: 5px;
     gap: 10px;
   }
@@ -35,14 +35,14 @@
   .email-icon {
     width: 24px;
     height: 24px;
-    fill: #0078D4; /* Cor do ícone */
+    fill: var(--Primary); /* Cor do ícone */
     margin-right: 10px;
   }
   
   .email-text {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
-    color: #8392AB;
+    color: var(--Secondary);
   }
   </style>
   

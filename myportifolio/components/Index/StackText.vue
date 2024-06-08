@@ -25,15 +25,9 @@ const props = defineProps({
 <style scoped>
 
 h1 {
-  font-size: 4rem;
   font-style: normal;
-  color: var(--Purple);
-  font-weight: bold;
-  text-shadow: 
-    -1px -1px 0 var(--Purple),  
-    1px -1px 0 var(--Purple),
-    -1px 1px 0 var(--Purple),
-    1px 1px 0 var(--Purple); 
+  color: var(--Primary);
+
 }
 
 </style>

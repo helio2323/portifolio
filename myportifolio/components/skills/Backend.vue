@@ -51,7 +51,7 @@ import Card from '../skills/Card.vue'
 
 h4 {
     font-size: 1.5rem;
-    color: #8392AB;
+    color: var(--Text);
 }
 
 </style>

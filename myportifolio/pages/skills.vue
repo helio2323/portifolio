@@ -32,18 +32,9 @@ import Others from '../components/skills/Others.vue'
 }
 
 h1 {
-    color: #5E72E4;
+    color: var(--Primary);
     font-weight: 700;
     font-size: 2.5rem;
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    height:  60px;
-    border: solid 1px #5E72E4;
-    border-radius:  10px;
-    align-items: center;
 }
 
 

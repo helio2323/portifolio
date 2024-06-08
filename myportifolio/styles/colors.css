@@ -1,10 +1,71 @@
 :root {
-    --SecondaryGray: #8392AB;
-    --Gray: #F0EEF2;
-  
+    --Primary: #F7418F;
+    --Secondary: #8392AB;
+    --Text: #111C44;
+    --Background: #FFFFFF;
     --White: #FFFFFF;
-    --PrimaryRed: #FF204E;
-    --Purple: #e45ed4;
-    --Black: #111C44;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
+  body {
+    font-family: 'Comfortaa', sans-serif;
+  }
+  
+  
+
+  /* Media Queries Globais */
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 1.4rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-shadow: 
+        -0.5px -0.5px 0 var(--Primary),  
+        0.5px -0.5px 0 var(--Primary),
+        -0.5px 0.5px 0 var(--Primary),
+        0.5px 0.5px 0 var(--Primary); 
+
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+
+  }
+  
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 2.8rem;
+    }
+    h1 {
+      font-size: 3.6rem;
+      font-weight: bold;
+      text-shadow: 
+        -1px -1px 0 var(--Primary),  
+        1px -1px 0 var(--Primary),
+        -1px 1px 0 var(--Primary),
+        1px 1px 0 var(--Primary); 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 3.2rem;
+    }
+    h1 {
+      font-size: 4.8rem;
+      font-weight: bold;
+      text-shadow: 
+        -1px -1px 0 var(--Primary),  
+        1px -1px 0 var(--Primary),
+        -1px 1px 0 var(--Primary),
+        1px 1px 0 var(--Primary); 
+    }
+  }

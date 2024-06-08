@@ -22,8 +22,21 @@ import MainHeader from '../components/MainHeader.vue'
     align-items: center;
     padding: 0;
     margin: 0;
+    padding-left: 10%;
 }
 
+@media screen and (max-width: 1300px) {
+    .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 0%;
+}
+}
 
 
 </style>

@@ -1,8 +1,9 @@
 <template>
     <div>
         <button @click="handleClick">
-        Source Code
-        <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" alt="downloading-updates"/>    </button>
+        See Code
+        <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" alt="downloading-updates"/>
+      </button>
     </div>
   </template>
   
@@ -18,24 +19,27 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
-    color: #FFF;
+    color: var(--White);
     height: 50px;
     border-radius: 5px;
-    background-color: #5E72E4;
+    background-color: var(--Primary);
     cursor: pointer;
     max-width: 200px;
     border: none;
     height: 35px;
     padding: 10px;
-
+    width: 100%;
   }
 
   div {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    padding: 0;
+
   }
 
   button:hover {

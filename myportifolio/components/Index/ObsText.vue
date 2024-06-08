@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h4>{{ text }}</h4>
+        <p>{{ text }}</p>
     </div>
 </template>
 
@@ -20,9 +20,8 @@ const props = defineProps({
 div {
     max-width: 700px;}
 
-h4 {
-    font-size: 1rem;
-    color: var(--SecondaryGray);
+p {
+    color: var(--Secondary);
 }
 
 </style>

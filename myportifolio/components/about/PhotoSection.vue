@@ -3,7 +3,11 @@
         <h1>{{ text }}</h1>
         <div class="photo">
             <img src="../../src/images/helio.png" alt="">
-            <p> {{ ptext }}</p>
+            <div class="text">
+                <p> {{ pstart }}</p>
+                <p> {{ pmidle }}</p>
+                <p> {{ pend }}</p>
+            </div>
         </div>
         <h1>{{ secondText }}</h1>
     </div>
@@ -16,11 +20,19 @@ const props = defineProps({
         type: String,
         default: ''
     },
-    ptext: {
+    pstart: {
         type: String,
         default: ''
     },
     secondText: {
+        type: String,
+        default: ''
+    },
+    pmidle: {
+        type: String,
+        default: ''
+    },
+    pend: {
         type: String,
         default: ''
     }
@@ -31,12 +43,12 @@ const props = defineProps({
 <style scoped>
 
 img {
-    width: 250px;
+    width: 350px;
 }
 
 h1 {
-    font-size: 2.5rem;
-    color: #5E72E4;
+    font-size: 2rem;
+    color: var(--Primary);
 }
 
 .photo-section {
@@ -58,9 +70,20 @@ h1 {
 }
 
 p {
-    width: 500px;
-    font-size: 1.5rem;
-    color: #8392AB;
+    max-width: 700px;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    color: var(--Text);
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 </style>

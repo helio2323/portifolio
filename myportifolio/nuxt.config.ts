@@ -7,6 +7,15 @@ export default defineNuxtConfig({
   },
   css: [
     '@/styles/colors.css',
-  ]
+  ],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "@/styles/colors.scss" as *;`,
+        },
+      },
+    },
+  },
 
 })

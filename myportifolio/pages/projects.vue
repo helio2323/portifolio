@@ -22,6 +22,7 @@ import OpSourceCard from '../components/projects/OpSourceCard.vue'
     width: 80%;
     height: calc(100vh - 110px);
     gap: 20px;
+    margin-top: 20px;
 
 }
 

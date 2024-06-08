@@ -16,7 +16,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    color: #8392AB;
+    color: var(--SecondaryGray);
 }
 
 </style>

@@ -43,7 +43,7 @@ const props = defineProps({
     width: 80%;
     height: calc(100vh - 110px);
     justify-content: center;
-    row-gap: 20px;  
+    row-gap: 20px;      
 }
 
 .btn {
@@ -54,5 +54,7 @@ const props = defineProps({
     align-items: center;
 
 }
+
+
 
 </style>

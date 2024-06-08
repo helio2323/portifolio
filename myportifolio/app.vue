@@ -1,6 +1,10 @@
 <template>
 
 <div>
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
@@ -12,9 +16,16 @@
 
 <style>
 
+#__nuxt {
+  padding: 0;
+  background-color: var(--White);
+}
+
 * {
+  font-family: 'Comfortaa', cursive;
+  padding: 0;
   margin: 0;
-  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
 
 }
 

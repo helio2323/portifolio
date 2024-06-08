@@ -1,7 +1,8 @@
 <template>
     <button @click="handleClick">
         Download CV
-        <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/5E72E4/downloading-updates.png" alt="downloading-updates"/>    </button>
+        <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/5E72E4/downloading-updates.png" alt="downloading-updates"/>    
+      </button>
   </template>
   
   <script setup>
@@ -18,16 +19,14 @@
     gap: 10px;
     font-size: 16px;
     font-weight: 500;
-    color: #5E72E4;
     height: 50px;
     border-radius: 100px;
     background-color: transparent;
-    border: solid 1px #5E72E4;
+    border: solid 1px var(--Purple);
+    color: var(--Purple);
     cursor: pointer;
     padding: 0 30px;
     max-width: 200px;
-    box-shadow: hotpink;
-
   }
 
 

@@ -19,8 +19,8 @@ const props = defineProps({
 
 h2 {
     font-size: 3rem;
-    font-style: normal;
-    
+    font-style: normal; 
+    color: var(--Black);
 }
 
 </style>

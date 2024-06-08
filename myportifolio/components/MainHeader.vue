@@ -24,7 +24,7 @@
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   width: 80%;
+   width: 100%;
 }
 
 img {
@@ -48,39 +48,39 @@ nav {
 
 a {
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--White);
   padding: 10px 30px ;
-  color: #8392AB; /* Cor padrão dos links */
+  color: var(--SecondaryGray); /* Cor padrão dos links */
 }
 
 a.home-active {
-  color: #5E72E4; /* Cor do link HOME ativo */
+  color: var(--Purple); /* Cor do link HOME ativo */
   text-decoration: underline;
 
 }
 
 a.about-active {
-  color: #5E72E4; /* Cor do link ABOUT ativo */
+  color: var(--Purple); /* Cor do link ABOUT ativo */
   text-decoration: underline;
 }
 
 a.projects-active {
-  color: #5E72E4; /* Cor do link PROJECTS ativo */
+  color: var(--Purple); /* Cor do link PROJECTS ativo */
   text-decoration: underline;
 }
 
 a.skills-active {
-  color: #5E72E4; /* Cor do link SKILLS ativo */
+  color: var(--Purple); /* Cor do link SKILLS ativo */
   text-decoration: underline;
 }
 
 a.contacts-active {
-  color: #5E72E4; /* Cor do link CONTACTS ativo */
+  color: var(--Purple); /* Cor do link CONTACTS ativo */
   text-decoration: underline;
 }
 
 nav a:hover {
-  color: #5E72E4;
+  color: var(--Purple);
   background-color: rgb(94, 114, 228, 0.2);
   padding: 10px 30px ;
   border-radius: 5px;

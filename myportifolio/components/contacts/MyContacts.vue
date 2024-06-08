@@ -8,10 +8,14 @@
         <h2>Contact Me</h2>
 
         <ButtonContact
-        text="helio_lima@outlook.com.br" />
+        text="helio_lima@outlook.com.br"
+        urlimg="https://img.icons8.com/fluency-systems-filled/48/8392AB/ms-outlook.png"
+        />
 
         <ButtonContact
-        text="+55 (11) 9 9027-1047" />
+        text="+55 (11) 9 9027-1047"
+        urlimg="https://img.icons8.com/ios-filled/50/8392AB/whatsapp--v1.png"
+        />
 
         <h2>Socials</h2>
 

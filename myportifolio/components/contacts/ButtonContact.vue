@@ -1,6 +1,6 @@
 <template>
     <div class="email-badge">
-        <img width="30  " height="30  " src="https://img.icons8.com/fluency-systems-filled/48/000000/ms-outlook.png" alt="ms-outlook"/>
+        <img width="25  " height="25  " :src="urlimg"/>
       <span class="email-text">{{ text }}</span>
     </div>
   </template>
@@ -10,6 +10,10 @@
 
   const props = defineProps({
     text: {
+      type: String,
+      default: ''
+    },
+    urlimg: {
       type: String,
       default: ''
     }
@@ -23,9 +27,9 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    border: 1px solid #C4C4C4;
-    border-radius: 10px;
-    background-color: #F4F4F4;
+    border: 1px solid #8392AB;
+    border-radius: 5px;
+    gap: 10px;
   }
   
   .email-icon {
@@ -38,7 +42,7 @@
   .email-text {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
-    color: #333;
+    color: #8392AB;
   }
   </style>
   

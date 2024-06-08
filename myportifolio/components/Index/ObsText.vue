@@ -22,7 +22,7 @@ div {
 
 h4 {
     font-size: 1rem;
-    color: #8392AB;
+    color: var(--SecondaryGray);
 }
 
 </style>

@@ -13,10 +13,10 @@
 .button {
     text-decoration: none;
     padding: 15px 40px;
-    background-color: #5E72E4;
+    background-color: var(--Purple);
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: var(--White);
     font-size: 16px;
     font-weight: 700;
 }

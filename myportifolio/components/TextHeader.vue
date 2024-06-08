@@ -26,7 +26,7 @@
   <style scoped>
   h3:hover {
     cursor: pointer;
-    color: #5E72E4;
+    color: var(--Purple);
     transition: all 0.8s;
   }
   </style>

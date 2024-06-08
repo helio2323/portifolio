@@ -43,7 +43,7 @@
   .nuxt-text {
     color: #8392AB;
     font-family: 'Comfortaa', sans-serif;
-    font-size: 20px;
+    font-size: 0.9rem;
   }
   </style>
   

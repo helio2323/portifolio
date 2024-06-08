@@ -4,6 +4,7 @@
 
         <FrontEnd />
         <Backend />
+        <Others />
 
         <h4></h4>
 
@@ -16,6 +17,7 @@
 import ButtonSection from '../components/projects/ButtonSection.vue'
 import FrontEnd from '../components/skills/FrontEnd.vue'
 import Backend from '../components/skills/Backend.vue'
+import Others from '../components/skills/Others.vue'
 
 </script>
 

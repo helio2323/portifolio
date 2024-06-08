@@ -1,0 +1,76 @@
+<template>
+    <div class="my-contacts">
+        <h1>Hello, so we can talk now?</h1>
+        <img class="photo" src="../../src/images/helio.png" alt="">
+        <p>“Albert Einsten”</p>
+        <h4>To build is the only way to free oneself from the inexorable passage of time.</h4>
+
+        <h2>Contact Me</h2>
+
+        <ButtonContact
+        text="helio_lima@outlook.com.br" />
+
+        <ButtonContact
+        text="+55 (11) 9 9027-1047" />
+
+        <h2>Socials</h2>
+
+        <Icons />
+
+    </div>
+</template>
+
+<script setup>
+
+import ButtonContact from '../contacts/ButtonContact.vue'
+import Icons from '../contacts/Icons.vue'
+
+</script>
+
+<style scoped>
+
+.my-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: normal;
+    color: #5E72E4;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: normal;
+    color: #5E72E4;
+}
+
+p {
+    font-size: 1.5rem;
+    font-style: normal;
+    color: #8392AB;
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-style: normal;
+    color: #8392AB;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+</style>

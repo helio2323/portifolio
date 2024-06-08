@@ -4,18 +4,13 @@
         <div class="front-end">
 
             <Card
-            img="https://img.icons8.com/color/48/python.png"
-            text="Nuxt Js"
+            img="https://img.icons8.com/color/48/docker.png"
+            text="Docker"
             />
 
             <Card
-            img="https://img.icons8.com/fluency/48/javascript.png"
-            text="Vue Js"
-            />
-
-            <Card
-            img="https://img.icons8.com/color/48/nodejs.png"
-            text="Node Js"
+            img="https://img.icons8.com/color/48/selenium-test-automation.png"
+            text="Selenium"
             />
 
 

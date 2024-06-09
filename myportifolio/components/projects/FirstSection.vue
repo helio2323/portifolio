@@ -1,21 +1,22 @@
 <template>
     <div class="first-section">
         <h3>Welcome to My Open Source Projects</h3>
-
+  <!--
         <div class="menu">
+           
             <ButtonSection
             text="In Development"
             />
 
-           <!-- <ButtonSection
+           <ButtonSection
             text="Study Cases"
             />
 
             <ButtonSection
             text="Frellancers"
-            /> -->
+            />
         </div>
-
+         -->
         <p>{{ text }}</p>
 
     </div>

@@ -16,7 +16,7 @@
         <ButtonContact
         text="+55 (11) 9 9027-1047"
         urlimg="https://img.icons8.com/ios-filled/50/8392AB/whatsapp--v1.png"
-        email="http://wa.me/5511981977242"
+        email="http://wa.me/5511990271047"
         />
 
         <h3>Socials</h3>

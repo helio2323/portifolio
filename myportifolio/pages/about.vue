@@ -15,8 +15,6 @@
         to grow as a developer."
         secondText="Carrer"
         />
-
-        
         <div class="experience">
             <Experience_Modern />
             <Experience_IBL />
@@ -24,6 +22,7 @@
 
         </div>
         
+
     </div>
 </template>
 
@@ -42,8 +41,7 @@ import Experience_Mundial from '../components/about/Experience_Mundial.vue'
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 110px);
-    
+    min-height: calc(100vh - 110px);    
 }
 
 .experience {
@@ -59,6 +57,7 @@ import Experience_Mundial from '../components/about/Experience_Mundial.vue'
     .experience {
         flex-direction: column;
         align-items: center;
+        height: 100vh;
     }
 
 

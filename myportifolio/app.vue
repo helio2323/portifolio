@@ -7,7 +7,6 @@
 
   <NuxtLayout>
     <NuxtPage />
-    <MainFooter />
   </NuxtLayout>
 </div>
 
@@ -19,8 +18,15 @@
 
 #__nuxt {
   padding: 0;
+  height: 100vh;
+}
+
+html {
+  height: 100vh;
   background-color: var(--Background);
-  width: 100vw;
+}
+
+body {
   height: 100vh;
 }
 
@@ -29,7 +35,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 
 }
 

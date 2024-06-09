@@ -1,7 +1,7 @@
 <template>
     <div class="my-contacts">
         <h3>Hello, so we can talk now?</h3>
-        <img class="photo" src="../../src/images/helio.png" alt="">
+        <img class="photo" src="https://avatars.githubusercontent.com/u/90978646?v=4" alt="">
         <p>“Albert Einsten”</p>
         <h4>To build is the only way to free oneself from the inexorable passage of time.</h4>
 
@@ -72,7 +72,7 @@ h4 {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 

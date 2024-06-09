@@ -2,7 +2,7 @@
     <div class="photo-section">
         <h3>{{ text }}</h3>
         <div class="photo">
-            <img src="../../src/images/helio.png" alt="">
+            <img src="https://avatars.githubusercontent.com/u/90978646?v=4" alt="">
             <div class="text">
                 <p> {{ pstart }}</p>
                 <p> {{ pmidle }}</p>
@@ -44,6 +44,7 @@ const props = defineProps({
 
 img {
     width: 350px;
+    border-radius: 10px;
 }
 
 h3 {
@@ -66,6 +67,7 @@ h3 {
     padding: 0;
     justify-content: start;
     align-items: start;
+    
 }
 
 p {

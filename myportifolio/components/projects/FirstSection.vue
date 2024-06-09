@@ -1,19 +1,19 @@
 <template>
     <div class="first-section">
-        <h1>Welcome to My Open Source Projects</h1>
+        <h3>Welcome to My Open Source Projects</h3>
 
         <div class="menu">
             <ButtonSection
-            text="Open Source"
+            text="In Development"
             />
 
-            <ButtonSection
+           <!-- <ButtonSection
             text="Study Cases"
             />
 
             <ButtonSection
             text="Frellancers"
-            />
+            /> -->
         </div>
 
         <p>{{ text }}</p>
@@ -45,10 +45,9 @@ const props = defineProps({
     align-items: center;
 }
 
-h1 {
+h3 {
     color: var(--Primary);
     font-weight: 700;
-    font-size: 2rem;
 }
 
 .first-section {
@@ -57,5 +56,14 @@ h1 {
     gap: 20px;
     
 }
+
+
+@media screen and (max-width: 768px){
+
+    .first-section {
+        align-items: center;
+        text-align: center;
+    }   
+  }
 
 </style>

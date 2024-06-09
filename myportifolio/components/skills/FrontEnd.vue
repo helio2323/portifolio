@@ -56,6 +56,8 @@ import Card from '../skills/Card.vue'
     width: 100%;
     gap: 20px;
     padding: 0;
+    display: flex;
+    flex-flow: row wrap;
     
 }
 
@@ -68,8 +70,19 @@ import Card from '../skills/Card.vue'
 }
 
 h4 {
-    font-size: 1.5rem;
     color: var(--Text);
 }
+
+@media screen and (max-width: 768px){
+
+
+    .front-end {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 
 </style>

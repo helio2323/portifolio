@@ -2,7 +2,7 @@
     <div>
         <button @click="handleClick">
         See Live
-        <img width="20" height="20" src="https://img.icons8.com/material-sharp/24/5E72E4/globe--v1.png" alt="downloading-updates"/>
+        <img width="20" height="20" src="https://img.icons8.com/material-sharp/24/8392AB/globe--v1.png" alt="downloading-updates"/>
       </button>
     </div>
   </template>
@@ -21,11 +21,11 @@
     gap: 10px;
     font-size: 13px;
     font-weight: 500;
-    color: var(--Primary);
+    color: var(--Secondary);
     height: 50px;
     border-radius: 5px;
     background-color: transparent;
-    border: solid 1px var(--Primary);
+    border: solid 1px var(--Secondary);
     cursor: pointer;
     max-width: 200px;
     height: 35px;

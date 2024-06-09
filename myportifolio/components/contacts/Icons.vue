@@ -1,16 +1,28 @@
 <template>
     <div class="icons">
-        <div class="icn">
+        <a :href="linkedin" target="_blank" class="icn">
             <img width="35" height="35" :src="linkedinImgSrc" alt="linkedin"/>
-        </div>
-        <div class="icn">
+        </a>
+        <a :href="github" target="_blank" class="icn">
             <img width="35" height="35" :src="githubImgSrc" alt="github"/>
-        </div>
+        </a :href="github" target="_blank">
     </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue';
+
+
+const props = defineProps({
+    linkedin: {
+        type: String,
+        default: 'https://www.linkedin.com/in/helio-lima/'
+    },
+    github: {
+        type: String,
+        default: 'https://github.com/helio2323'
+    }
+});
 
 // Reactive variables to hold the image sources
 const linkedinImgSrc = ref('');

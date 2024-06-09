@@ -23,6 +23,7 @@
             <Experience_Mundial />
 
         </div>
+        
     </div>
 </template>
 
@@ -40,7 +41,7 @@ import Experience_Mundial from '../components/about/Experience_Mundial.vue'
 .about {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: calc(100vh - 110px);
     
 }
@@ -50,6 +51,17 @@ import Experience_Mundial from '../components/about/Experience_Mundial.vue'
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1300px){
+
+    .experience {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
 
 

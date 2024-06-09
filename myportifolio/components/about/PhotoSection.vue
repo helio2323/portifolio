@@ -1,6 +1,6 @@
 <template>
     <div class="photo-section">
-        <h1>{{ text }}</h1>
+        <h3>{{ text }}</h3>
         <div class="photo">
             <img src="../../src/images/helio.png" alt="">
             <div class="text">
@@ -9,7 +9,7 @@
                 <p> {{ pend }}</p>
             </div>
         </div>
-        <h1>{{ secondText }}</h1>
+        <h3>{{ secondText }}</h3>
     </div>
 </template>
 
@@ -46,8 +46,7 @@ img {
     width: 350px;
 }
 
-h1 {
-    font-size: 2rem;
+h3 {
     color: var(--Primary);
 }
 
@@ -70,14 +69,13 @@ h1 {
 }
 
 p {
-    max-width: 700px;
     line-height: 1.4;
-    font-size: 1.2rem;
     color: var(--Text);
     display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+
 }
 
 .text {
@@ -85,5 +83,25 @@ p {
     flex-direction: column;
     gap: 10px;
 }
+
+
+@media screen and (max-width: 1300px){
+
+    .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+  }
 
 </style>

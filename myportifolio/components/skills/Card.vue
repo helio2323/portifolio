@@ -27,8 +27,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 100px;
+    min-width: 120px;
+    min-height: 100px;
     border: 1px solid var(--Secondary);
     border-radius: 10px;
     gap: 10px;

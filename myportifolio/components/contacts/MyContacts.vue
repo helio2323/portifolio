@@ -1,23 +1,25 @@
 <template>
     <div class="my-contacts">
-        <h1>Hello, so we can talk now?</h1>
+        <h3>Hello, so we can talk now?</h3>
         <img class="photo" src="../../src/images/helio.png" alt="">
         <p>“Albert Einsten”</p>
         <h4>To build is the only way to free oneself from the inexorable passage of time.</h4>
 
-        <h2>Contact Me</h2>
+        <h3>Contact Me</h3>
 
         <ButtonContact
         text="helio_lima@outlook.com.br"
         urlimg="https://img.icons8.com/fluency-systems-filled/48/8392AB/ms-outlook.png"
+        email="mailto:helio_lima@outlook.com.br"
         />
 
         <ButtonContact
         text="+55 (11) 9 9027-1047"
         urlimg="https://img.icons8.com/ios-filled/50/8392AB/whatsapp--v1.png"
+        email="http://wa.me/5511981977242"
         />
 
-        <h2>Socials</h2>
+        <h3>Socials</h3>
 
         <Icons />
 
@@ -37,31 +39,28 @@ import Icons from '../contacts/Icons.vue'
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 100%;
     gap: 20px;
 }
 
-h1 {
-    font-size: 2rem;
+h3 {
     font-style: normal;
     color: var(--Primary);
 }
 
 h2 {
-    font-size: 1.5rem;
     font-style: normal;
     color: var(--Primary);
 }
 
 p {
-    font-size: 1.5rem;
     font-style: normal;
     color: var(--Secondary);
-    font-size: 0.9rem;
 }
 
 h4 {
-    font-size: 1rem;
     font-style: normal;
     color: var(--Secondary);
     font-style: normal;

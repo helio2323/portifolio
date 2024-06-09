@@ -1,6 +1,6 @@
 <template>
     <div class="skills">
-        <h1>Welcome to My Open Source Projects</h1>
+        <h3>Welcome to My Open Source Projects</h3>
 
         <FrontEnd />
         <Backend />
@@ -26,16 +26,26 @@ import Others from '../components/skills/Others.vue'
 .skills {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: calc(100vh - 110px);
     gap: 20px;
 }
 
-h1 {
+h3 {
     color: var(--Primary);
     font-weight: 700;
-    font-size: 2.5rem;
 }
+
+@media screen and (max-width: 768px){
+
+    .skills {
+        align-items: center;
+        text-align: center;
+
+    }
+
+}
+
 
 
 </style>

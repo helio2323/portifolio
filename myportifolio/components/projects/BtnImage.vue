@@ -24,7 +24,7 @@
     color: var(--White);
     height: 50px;
     border-radius: 5px;
-    background-color: var(--Primary);
+    background-color: var(--Secondary);
     cursor: pointer;
     max-width: 200px;
     border: none;

@@ -2,11 +2,11 @@
   <div class="header">
     <img src="../src/images/Frame 29.png" alt="">
     <nav :class="{ open: isOpen }">
-      <NuxtLink to="/" exact-active-class="home-active">HOME</NuxtLink>
-      <NuxtLink to="/about" exact-active-class="about-active">ABOUT</NuxtLink>
-      <NuxtLink to="/projects" exact-active-class="projects-active">PROJECTS</NuxtLink>
-      <NuxtLink to="/skills" exact-active-class="skills-active">SKILLS</NuxtLink>
-      <NuxtLink to="/contacts" exact-active-class="contacts-active">CONTACTS</NuxtLink>
+      <NuxtLink @click="toggleMenu" to="/" exact-active-class="home-active">HOME</NuxtLink >
+      <NuxtLink @click="toggleMenu" to="/about" exact-active-class="about-active">ABOUT</NuxtLink>
+      <NuxtLink @click="toggleMenu" to="/projects" exact-active-class="projects-active">PROJECTS</NuxtLink>
+      <NuxtLink @click="toggleMenu" to="/skills" exact-active-class="skills-active">SKILLS</NuxtLink>
+      <NuxtLink @click="toggleMenu" to="/contacts" exact-active-class="contacts-active">CONTACTS</NuxtLink>
     </nav>
     <div class="hamburger" @click="toggleMenu">
       <div class="bar"></div>
@@ -24,6 +24,7 @@ const isOpen = ref(false);
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value;
+  isOpen = false
 };
 </script>
 
@@ -70,7 +71,6 @@ nav a:hover {
 
 a {
   text-decoration: none;
-  background-color: var(--White);
   padding: 10px 30px;
   color: var(--Secondary);
 }
@@ -100,7 +100,20 @@ a.home-active, a.about-active, a.projects-active, a.skills-active, a.contacts-ac
   nav {
     flex-direction: column;
     max-height: 0;
+    position: absolute;
     overflow: hidden;
+    background-color: var(--Background);
+    height: 50%;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: max-height 0.3s ease-in-out;
+    z-index: 1;
+  }
+
+  .header {
+    justify-content: space-between;
   }
 
   .hamburger {

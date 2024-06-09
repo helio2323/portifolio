@@ -2,7 +2,9 @@
     <div class="layout">
         <MainHeader />
         <slot ></slot>
-        <MainFooter />
+        <LightDark />
+        
+        
     </div>
 </template>
 
@@ -23,6 +25,7 @@ import MainHeader from '../components/MainHeader.vue'
     padding: 0;
     margin: 0;
     padding-left: 10%;
+    padding-right: 10%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -35,6 +38,7 @@ import MainHeader from '../components/MainHeader.vue'
     padding: 0;
     margin: 0;
     padding-left: 0%;
+    padding-right: 0%;
 }
 }
 

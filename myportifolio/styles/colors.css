@@ -1,6 +1,7 @@
 :root {
-    --Primary: #F7418F;
+    --Primary: #5E72E4;
     --Secondary: #8392AB;
+    --Tertiary: #FFFFFF;
     --Text: #111C44;
     --Background: #FFFFFF;
     --White: #FFFFFF;
@@ -33,6 +34,13 @@
         0.5px 0.5px 0 var(--Primary); 
 
   }
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
   
   p {
     font-size: 1rem;
@@ -53,6 +61,13 @@
         -1px 1px 0 var(--Primary),
         1px 1px 0 var(--Primary); 
     }
+    h3 {
+      font-size: 1.6rem;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+    }
   }
   
   @media (min-width: 1024px) {
@@ -67,5 +82,12 @@
         1px -1px 0 var(--Primary),
         -1px 1px 0 var(--Primary),
         1px 1px 0 var(--Primary); 
+    }
+    h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1.5rem;
     }
   }

@@ -6,10 +6,11 @@
       <div class="content">
         <h2 class="title">Easy Scrapy</h2>
         <p class="description">
-          Welcome to my creative hub where innovation meets expression.
-          Through a blend of imagination and craftsmanship, I strive to bring ideas to life.
-          Each project is a testament.
+          This project is under development. It is a tool that performs webscraping without the need for code
         </p>
+
+        <img src="" alt="">
+
         <div class="technologies">
           <h3>Technologies</h3>
           <div class="icons">
@@ -19,8 +20,9 @@
         </div>
         </div>
         <div class="buttons">
-          <BtnImageOutline />
+         <!-- <BtnImageOutline />
           <BtnImage />
+          -->
           
         </div>
       </div>
@@ -37,7 +39,7 @@
   <style scoped>
   .project-card {
     max-width: 350px;
-    background-color: var(--White);
+    background-color: var(--Tertiary);
     border-radius: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -136,5 +138,14 @@
   .code-button:hover {
     background-color: var(--Text);
   }
+
+
+  @media screen and (max-width: 1300px){
+    .project-card {
+      max-width: 300px;
+
+    }
+  }
+
   </style>
   

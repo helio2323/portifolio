@@ -16,7 +16,7 @@ import MyContacts from '../components/contacts/MyContacts.vue'
 .contacts {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: calc(100vh - 110px);
     gap: 20px;
 }

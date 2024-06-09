@@ -1,7 +1,7 @@
 <template>
     <div class="timeline">
       <div class="timeline-header">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpkFQZxoOVgT1yTm3bH2UMdvmSmnSAomWvQ&s" alt="Company Logo" class="logo" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3Xble-08mQCujg5Q8ARjbfHJ2eK1UwjuGg&s" alt="Company Logo" class="logo" />
         <h2>2016 to 2018</h2>
       </div>
       <div class="timeline-item">

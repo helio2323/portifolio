@@ -19,10 +19,18 @@ import OpSourceCard from '../components/projects/OpSourceCard.vue'
 .projects {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: calc(100vh - 110px);
     gap: 20px;
     margin-top: 20px;
+
+}
+
+@media screen and (max-width: 768px){
+
+    .projects {
+        align-items: center;
+    }
 
 }
 

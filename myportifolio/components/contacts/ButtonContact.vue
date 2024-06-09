@@ -1,8 +1,8 @@
 <template>
-    <div class="email-badge">
+    <a :href="email" target="_blank" class="email-badge">
         <img width="25  " height="25  " :src="urlimg"/>
       <span class="email-text">{{ text }}</span>
-    </div>
+    </a>
   </template>
   
   <script setup>
@@ -14,6 +14,10 @@
       default: ''
     },
     urlimg: {
+      type: String,
+      default: ''
+    },
+    email: {
       type: String,
       default: ''
     }
@@ -44,5 +48,10 @@
     font-size: 14px;
     color: var(--Secondary);
   }
+
+  a {
+    text-decoration: none;
+  }
+
   </style>
   

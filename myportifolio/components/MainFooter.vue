@@ -13,7 +13,7 @@
 .footer { 
     display: flex;
     height: 30px;
-    width: 100%;
+    min-width: 100%;
     justify-content: center;
     align-items: center;
     color: var(--Secondary);

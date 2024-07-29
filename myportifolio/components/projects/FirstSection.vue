@@ -1,6 +1,6 @@
 <template>
     <div class="first-section">
-        <h3>Welcome to My Open Source Projects</h3>
+        <h3>Welcome To My Projects</h3>
   <!--
         <div class="menu">
            

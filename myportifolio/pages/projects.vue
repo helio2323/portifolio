@@ -1,7 +1,6 @@
 <template>
     <div class="projects">
         <FirstSection 
-        text="Look my open source projects"
         />
         <OpSourceCard />
     </div>

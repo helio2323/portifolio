@@ -47,7 +47,7 @@ div {
 }
 
 button:hover {
-  box-shadow: 0 0 2.1875rem rgba(0, 0, 0, 0.1); /* 35px em rem */
+  box-shadow: 0 0 40px rgba(94, 114, 228, 0.5);
   transition: all 0.8s;
 }
 </style>

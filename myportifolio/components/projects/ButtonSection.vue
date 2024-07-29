@@ -35,4 +35,5 @@ const props = defineProps({
     font-size: 0.92rem;
 }
 
+
 </style>

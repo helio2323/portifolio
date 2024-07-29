@@ -2,7 +2,7 @@
   <div>
       <button @click="handleLive">
       See Live
-      <img width="20" height="20" src="https://img.icons8.com/material-sharp/24/8392AB/globe--v1.png" alt="downloading-updates"/>
+      <img width="20" height="20" src="https://img.icons8.com/material-sharp/24/5E72E4/globe--v1.png" alt="downloading-updates"/>
     </button>
   </div>
 </template>
@@ -26,16 +26,17 @@ button {
   gap: 10px;
   font-size: 13px;
   font-weight: 500;
-  color: var(--Secondary);
+  color: var(--Primary);
   height: 50px;
   border-radius: 5px;
   background-color: transparent;
-  border: solid 1px var(--Secondary);
+  border: solid 1px var(--Background);
   cursor: pointer;
   max-width: 200px;
   height: 35px;
   padding: 10px;
   width: 100%;
+  border: solid 1px var(--Primary);
 
 }
 
@@ -49,7 +50,8 @@ div {
 }
 
 button:hover {
-  box-shadow: 0 0 2.1875rem rgba(0, 0, 0, 0.1); /* 35px em rem */
+  border: solid 1px var(--Primary);
+  box-shadow: 0 0 40px rgba(94, 114, 228, 0.5);
   transition: all 0.8s;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h4>Back-end</h4>
+        <h4>Outros</h4>
         <div class="front-end">
 
             <Card
@@ -12,8 +12,6 @@
             img="https://img.icons8.com/color/48/selenium-test-automation.png"
             text="Selenium"
             />
-
-
 
         </div>
     </div>

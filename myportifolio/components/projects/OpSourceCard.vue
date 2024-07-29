@@ -19,7 +19,8 @@
           <img width="40" height="40" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/>
           <img width="40" height="40" src="https://img.icons8.com/color/48/postgreesql.png" alt="tailwind_css"/>
           <img width="40" height="40" src="https://img.icons8.com/fluency/48/docker.png" alt="tailwind_css"/>
-          <img width="40" height="40" src="https://img.icons8.com/color/48/000000/nginx.png" alt="tailwind_css"/>
+          <img width="40" height="40" src="https://img.icons8.com/color/48/F25833/nginx.png" alt="tailwind_css"/>
+          
       </div>
       </div>
       <div class="buttons">
@@ -41,7 +42,7 @@ import BtnImage from './BtnImage.vue'
 
 <style scoped>
 .project-card {
-  max-width: 320px;
+  width: 330px;
   background-color: var(--Tertiary);
   border-radius: 16px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -52,18 +53,19 @@ import BtnImage from './BtnImage.vue'
 
 .project-card:hover {
     border: solid 1px var(--Primary);
-    box-shadow: 0 0 40px rgba(94, 114, 228, 0.5);
+    box-shadow: 0 0 40px rgba(94, 114, 228, 0.2);
     transition: all 0.5s;
 }
 
 .image-container {
-  height: 120px;
+  height: 180px;
   overflow: hidden;
   margin: 0;
   padding: 0;
   border-radius: 16px;
   background-image: url("../../src/images/challengedev.png");
   background-size: cover;
+  background-position: center;
 }
 
 .project-image {

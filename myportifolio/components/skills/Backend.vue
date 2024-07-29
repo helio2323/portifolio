@@ -5,12 +5,16 @@
 
             <Card
             img="https://img.icons8.com/color/48/python.png"
-            text="Nuxt Js"
+            text="Python"
             />
 
             <Card
             img="https://img.icons8.com/fluency/48/javascript.png"
-            text="Vue Js"
+            text="Javascript"
+            />
+            <Card
+            img="https://img.icons8.com/fluency/48/typescript.png"
+            text="TypeScript"
             />
 
             <Card

@@ -1,6 +1,6 @@
 <template>
   <div>
-      <button @click="handleClick">
+      <button @click="handleGithub">
       See Code
       <img @click="handleGithub" width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" alt="downloading-updates"/>
     </button>
